@@ -1,9 +1,17 @@
 import React from 'react';
+import AboutUs from './components/AboutUs';
 
 function App() {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
-      <nav className="bg-white shadow-sm">
+      <nav className="bg-white shadow-sm fixed w-full top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -14,11 +22,16 @@ function App() {
             {/* Navigation Links */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-8">
-                <a href="#" className="text-gray-600 hover:text-gray-900">About Us</a>
+                <button 
+                  onClick={() => scrollToSection('about')}
+                  className="text-gray-600 hover:text-gray-900"
+                >
+                  About Us
+                </button>
+                <a href="#" className="text-gray-600 hover:text-gray-900">Product</a>
                 <a href="#" className="text-gray-600 hover:text-gray-900">Services</a>
-                <a href="#" className="text-gray-600 hover:text-gray-900">Members</a>
                 <a href="#" className="text-gray-600 hover:text-gray-900">Working Process</a>
-                <a href="#" className="text-gray-600 hover:text-gray-900">Projects</a>
+                <a href="#" className="text-gray-600 hover:text-gray-900">Members</a>
                 <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">
                   Contact Us
                 </button>
@@ -37,9 +50,9 @@ function App() {
         </div>
       </nav>
 
-      {/* Main content */}
-      <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        {/* Your page content goes here */}
+      {/* Main content with padding-top to account for fixed navbar */}
+      <main className="pt-16">
+        <AboutUs />
       </main>
     </div>
   );

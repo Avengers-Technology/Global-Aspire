@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="700" cy="100" r="4" fill="#E1E7FF" />
+  <circle cx="100" cy="500" r="4" fill="#E1E7FF" />
+  <path d="M650 50 Q 700 50, 700 100 T 750 150" stroke="#E1E7FF" stroke-width="2" fill="none"/>
+  
+  <!-- Phone Device -->
+  <rect x="250" y="100" width="300" height="500" rx="20" fill="#1E40AF"/>
+  <rect x="270" y="120" width="260" height="460" rx="10" fill="#FFFFFF"/>
+  
+  <!-- Content Elements -->
+  <rect x="290" y="150" width="100" height="80" rx="4" fill="#E1E7FF"/>
+  <rect x="290" y="250" width="220" height="10" rx="2" fill="#E1E7FF"/>
+  <rect x="290" y="270" width="180" height="10" rx="2" fill="#E1E7FF"/>
+  
+  <!-- People -->
+  <circle cx="200" cy="300" r="30" fill="#EF4444"/>
+  <rect x="185" y="340" width="30" height="60" rx="10" fill="#EF4444"/>
+  
+  <circle cx="600" cy="300" r="30" fill="#1E40AF"/>
+  <rect x="585" y="340" width="30" height="60" rx="10" fill="#1E40AF"/>
+  
+  <!-- Decorative Elements -->
+  <path d="M150 400 Q 180 420, 150 440" stroke="#E1E7FF" stroke-width="2" fill="none"/>
+  <path d="M650 400 Q 620 420, 650 440" stroke="#E1E7FF" stroke-width="2" fill="none"/>
+</svg> 

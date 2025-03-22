@@ -51,6 +51,16 @@ const services: ServiceItem[] = [
   }
 ];
 
+const industries = [
+  "Retail & E-commerce",
+  "Media & Entertainment",
+  "Finance & Banking",
+  "Manufacturing",
+  "Logistics",
+  "Public Sectors",
+  "Automotive"
+];
+
 const Services: React.FC = () => {
   return (
     <section id="services" className="py-20 bg-white">
@@ -89,6 +99,41 @@ const Services: React.FC = () => {
               </div>
             );
           })}
+        </div>
+
+        {/* Outsourcing Services Section */}
+        <div className="flex flex-col lg:flex-row justify-between gap-16 mt-28">
+          {/* Left Content */}
+          <div className="lg:w-1/2">
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+              Outsourcing Services
+            </h2>
+            <p className="text-lg text-gray-600 mb-5">
+              Global Aspire assists customers of all sizes and from any industries in implementing.
+            </p>
+            <div className="space-y-4">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+                Industries
+              </h3>
+              <ul className="space-y-3">
+                {industries.map((industry, index) => (
+                  <li key={index} className="flex items-center text-gray-600 ms-5">
+                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                    {industry}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Right Image */}
+          <div className="lg:w-2/5">
+            <img
+              src="/outsourcing-illustration.png"
+              alt="Outsourcing Services Illustration"
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
         </div>
       </div>
     </section>

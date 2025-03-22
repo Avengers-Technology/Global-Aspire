@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUs from './components/AboutUs';
+import Product from './components/Product';
 
 function App() {
   const scrollToSection = (sectionId: string) => {
@@ -28,10 +29,15 @@ function App() {
                 >
                   About Us
                 </button>
-                <a href="#" className="text-gray-600 hover:text-gray-900">Product</a>
+                <button 
+                  onClick={() => scrollToSection('products')}
+                  className="text-gray-600 hover:text-gray-900"
+                >
+                  Products
+                </button>
                 <a href="#" className="text-gray-600 hover:text-gray-900">Services</a>
-                <a href="#" className="text-gray-600 hover:text-gray-900">Working Process</a>
                 <a href="#" className="text-gray-600 hover:text-gray-900">Members</a>
+                <a href="#" className="text-gray-600 hover:text-gray-900">Working Process</a>
                 <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">
                   Contact Us
                 </button>
@@ -53,6 +59,7 @@ function App() {
       {/* Main content with padding-top to account for fixed navbar */}
       <main className="pt-16">
         <AboutUs />
+        <Product />
       </main>
     </div>
   );

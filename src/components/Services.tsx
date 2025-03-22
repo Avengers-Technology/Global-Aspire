@@ -62,15 +62,12 @@ const Services: React.FC = () => {
           </h2>
           <div className="space-y-6 text-lg text-gray-600">
             <p>
-              We offer a wide range of services to help businesses optimize their technology 
-              infrastructure and improve their operations. Our services includes software 
-              development, website design, cybersecurity solutions, cloud computing, IT 
-              consulting, and data analysis.
+             We provide a variety of services designed to help businesses enhance their technology infrastructure and streamline operations. 
+             Our offerings include software development, website design, cybersecurity solutions, cloud computing, IT consulting, and data analysis.
             </p>
             <p>
-              We also provide ongoing support and maintenance to ensure that our clients' 
-              systems are running smoothly and efficiently. Our team is available 24/7 to 
-              address any issues or concerns that may arise.
+              In addition, we offer continuous support and maintenance to keep our clients' systems running efficiently. 
+              Our team is available 24/7 to promptly address any issues or concerns.
             </p>
           </div>
         </div>

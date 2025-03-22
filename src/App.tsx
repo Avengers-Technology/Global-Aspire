@@ -2,6 +2,7 @@ import React from 'react';
 import AboutUs from './components/AboutUs';
 import Product from './components/Product';
 import Services from './components/Services';
+import Member from './components/Member';
 
 function App() {
   const scrollToSection = (sectionId: string) => {
@@ -42,7 +43,12 @@ function App() {
                 >
                   Services
                 </button>
-                <a href="#" className="text-gray-600 hover:text-gray-900">Members</a>
+                <button 
+                  onClick={() => scrollToSection('member')}
+                  className="text-gray-600 hover:text-gray-900"
+                >
+                  Member
+                </button>
                 <a href="#" className="text-gray-600 hover:text-gray-900">Working Process</a>
                 <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">
                   Contact Us
@@ -67,6 +73,7 @@ function App() {
         <AboutUs />
         <Product />
         <Services />
+        <Member />
       </main>
     </div>
   );

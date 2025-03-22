@@ -50,8 +50,8 @@ const products: ProductItem[] = [
     id: 5,
     name: 'LG OLED',
     category: 'LG OLED C1 42 Inch 4K Smart OLED evo AI (2024) OLED C1 42 Inch 4K Smart OLED evo AI (2024)',
-    price: 36290000,
-    originalPrice: 30000000,
+    price: 30000000,
+    originalPrice: 36290000,
     image: '/products/ic_laptop_lg.jpg',
     discount: 30
   },

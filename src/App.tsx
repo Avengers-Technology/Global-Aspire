@@ -4,6 +4,8 @@ import Product from './components/Product';
 import Services from './components/Services';
 import Member from './components/Member';
 import WorkingProcess from './components/WorkingProcess';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const scrollToSection = (sectionId: string) => {
@@ -56,7 +58,10 @@ function App() {
                 >
                   Working Process
                 </button>
-                <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">
+                <button 
+                  onClick={() => scrollToSection('contact')}
+                  className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600"
+                >
                   Contact Us
                 </button>
               </div>
@@ -81,7 +86,10 @@ function App() {
         <Services />
         <Member />
         <WorkingProcess />
+        <Contact />
       </main>
+
+      <Footer />
     </div>
   );
 }

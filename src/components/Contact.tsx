@@ -23,8 +23,8 @@ const contactMethods: ContactMethod[] = [
     Icon: FaPhone,
     title: "Call us",
     description: "Call us to speak to a member of our team. We are always happy to help you.",
-    link: "tel:+84909222222",
-    linkText: "+84 909222222"
+    link: "tel:+84866846800",
+    linkText: "+84866846800"
   },
   {
     Icon: FaMapMarkerAlt,

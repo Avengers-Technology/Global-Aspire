@@ -6,6 +6,7 @@ import Member from './components/Member';
 import WorkingProcess from './components/WorkingProcess';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import News from './components/News';
 
 function App() {
   const scrollToSection = (sectionId: string) => {
@@ -33,6 +34,12 @@ function App() {
                   className="text-gray-600 hover:text-gray-900"
                 >
                   About Us
+                </button>
+                <button 
+                  onClick={() => scrollToSection('news')}
+                  className="text-gray-600 hover:text-gray-900"
+                >
+                  News
                 </button>
                 <button 
                   onClick={() => scrollToSection('products')}
@@ -82,6 +89,7 @@ function App() {
       {/* Main content with padding-top to account for fixed navbar */}
       <main className="pt-16">
         <AboutUs />
+        <News />
         <Product />
         <Services />
         <Member />

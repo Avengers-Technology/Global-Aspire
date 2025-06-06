@@ -18,7 +18,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Nguyen Thi Thanh",
-    position: "Supply Chain Director",
+    position: "Supply Chain Director (SCD)",
     description: "7 years working experiences in Supply Chain field/nFormer Supply Chain Director of a big company in Vietnam.",
     image: "/team/ic_supplychain.png",
   },
@@ -30,7 +30,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Nguyen Van Cong",
-    position: "Digital Marketing Director",
+    position: "Digital Marketing Director (DMD)",
     description: "8 years working experiences in Digital Marketing field.",
     image: "/team/ic_digital_marketing.jpg",
   }

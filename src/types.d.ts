@@ -3,6 +3,7 @@ export interface NewsItem {
   description: string;
   date: string;
   image: string;
+  author?: string;
 }
 
 export const newsItems: NewsItem[]; 

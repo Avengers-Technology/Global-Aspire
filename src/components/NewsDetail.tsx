@@ -63,7 +63,10 @@ const NewsDetail: React.FC = () => {
           {/* Content */}
           <div className="p-8">
             <div className="mb-4">
-              <span className="text-gray-500">{news.date}</span>
+              <span className="text-gray-600">{news.date}</span>
+              {news.author && (
+                <span className="block text-gray-600 text-sm mt-1">Tác giả: {news.author}</span>
+              )}
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-6">
               {news.title}

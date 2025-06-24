@@ -47,7 +47,7 @@ const News: React.FC = () => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   {news.title}
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 line-clamp-4">
                   {news.description}
                 </p>
               </div>

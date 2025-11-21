@@ -17,7 +17,7 @@ const NewsDetail: React.FC = () => {
               onClick={() => navigate('/')}
               className="mt-4 text-blue-600 hover:text-blue-800"
             >
-              Quay lại trang chủ
+              Back to Home
             </button>
           </div>
         </div>
@@ -46,7 +46,7 @@ const NewsDetail: React.FC = () => {
               d="M10 19l-7-7m0 0l7-7m-7 7h18" 
             />
           </svg>
-          Quay lại
+          Back
         </button>
 
         {/* News content */}
@@ -65,7 +65,7 @@ const NewsDetail: React.FC = () => {
             <div className="mb-4">
               <span className="text-gray-600">{news.date}</span>
               {news.author && (
-                <span className="block text-gray-600 text-sm mt-1">Tác giả: {news.author}</span>
+                <span className="block text-gray-600 text-sm mt-1">Author: {news.author}</span>
               )}
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-6">

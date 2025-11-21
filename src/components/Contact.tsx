@@ -17,21 +17,21 @@ const contactMethods: ContactMethod[] = [
     title: "Email us",
     description: "Email us for general queries, including marketing and partnership opportunities.",
     link: "mailto:contact@globalaspire.com",
-    linkText: "contact@globalaspire.com"
+    linkText: ""
   },
   {
     Icon: FaPhone,
     title: "Call us",
     description: "Call us to speak to a member of our team. We are always happy to help you.",
     link: "tel:+84866846800",
-    linkText: "+84866846800"
+    linkText: ""
   },
   {
     Icon: FaMapMarkerAlt,
     title: "Visit us",
     link: "https://www.google.com/maps/place/%C4%90.+H%E1%BB%93+T%C3%B9ng+M%E1%BA%ADu,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam",
-    linkText: "Hồ Tùng Mậu, phường Mai Dịch, quận Cầu Giấy, thành phố Hà Nội",
-    isExternal: true
+    linkText: "66 Ho Tung Mau Street, Phu Dien Ward, Hanoi City, Vietnam",
+    isExternal: false
   }
 ];
 

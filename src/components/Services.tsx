@@ -102,8 +102,7 @@ const Services: React.FC = () => {
         </div>
 
         {/* Outsourcing Services Section */}
-        <div className="flex flex-col lg:flex-row justify-between gap-16 mt-28">
-          {/* Left Content */}
+        {/* <div className="flex flex-col lg:flex-row justify-between gap-16 mt-28">
           <div className="lg:w-1/2">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
               Outsourcing Services
@@ -126,7 +125,6 @@ const Services: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Image */}
           <div className="lg:w-2/5">
             <img
               src="/outsourcing-illustration.png"
@@ -134,7 +132,7 @@ const Services: React.FC = () => {
               className="w-full h-auto rounded-lg"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
